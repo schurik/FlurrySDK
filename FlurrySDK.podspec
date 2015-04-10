@@ -19,13 +19,13 @@ Pod::Spec.new do |s|
     ss.libraries = "z"
     ss.frameworks = 'CoreGraphics', 'Foundation', 'MediaPlayer', 'SystemConfiguration', 'UIKit', 'Security'
     ss.weak_frameworks = 'AdSupport', 'StoreKit'
-    ss.vendored_libraries = 'Flurry/libFlurry_6.3.0.a'
+    ss.vendored_libraries = 'Flurry/libFlurry_{s.version}.a'
   end
 
   s.subspec 'FlurryAds' do |ss|
     ss.source_files = 'FlurryAds/**/*.h'
     ss.frameworks = 'iAd'
-    ss.vendored_libraries = 'FlurryAds/libFlurryAds_6.3.0.a'
+    ss.vendored_libraries = 'FlurryAds/libFlurryAds_{s.version}.a'
     ss.dependency 'FlurrySDK/FlurrySDK'
   end
 
