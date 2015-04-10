@@ -1,7 +1,7 @@
 FlurrySDK
 ======
 
-Latest Flurry SDK (6.2.0)
+Latest Flurry SDK (6.3.0)
 
 
 ## This shows how to use this repo as a Private Spec Repo
@@ -35,7 +35,7 @@ Latest Flurry SDK (6.2.0)
 	platform :ios, '8.0'
 
 	target 'YourProject' do
-	  pod 'FlurrySDK', '6.2'
+	  pod 'FlurrySDK', '6.3'
 	end
     ```
 
@@ -44,16 +44,16 @@ For more information about Private Pods. see [here](http://guides.cocoapods.org/
 
 ## Basic Usage
 
-To use 6.2.0 FlurrySDK from cocoapods, add this line in your Pods file:
+To use 6.3.0 FlurrySDK from cocoapods, add this line in your Pods file:
 
 ```
-  pod 'FlurrySDK', '6.2'
+  pod 'FlurrySDK', '6.3'
 ```
 
 
 If you also want the FlurryAds SDK, you can define pods to install both subspecs:
 
 ```
-  pod 'FlurrySDK/FlurrySDK', '6.2'
-  pod 'FlurrySDK/FlurryAds', '6.2'
+  pod 'FlurrySDK/FlurrySDK', '6.3'
+  pod 'FlurrySDK/FlurryAds', '6.3'
 ```
